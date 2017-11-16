@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+body {
+
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
