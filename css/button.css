@@ -2,27 +2,31 @@
    display: inline-block;
    text-decoration: none;
    text-transform: uppercase;
-   font-family: Arial, sans-serif;
+   font-family: Roboto, sans-serif;
    color: #fff;
    background-color: transparent;
-   font-size: 14px;
-   border: 2px solid #fff;
-   border-radius: 5px;
-   padding: 14px 20px;
+   font-size: 15px;
+   border: 1px solid #ffe600;
+   padding: 20px 80px;
    margin: 5px;
    cursor: pointer;
 }
 .button:hover,
 .button:focus {
    color: #000;
-   background-color: #23b7a4;
-   border-color: #23b7a4;
+   background-color: #ffe600;
 }
 .button-lg {
    padding: 14px 20px;
 }
 .button-sm {
    padding: 14px 20px;
+}
+.button-arrow {
+   border: none;
+   padding: 15px;
+}
+.button-arrow:hover {
 }
 
 
