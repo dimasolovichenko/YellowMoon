@@ -16,18 +16,22 @@
    color: #000;
    background-color: #ffe600;
 }
-.button-lg {
-   padding: 14px 20px;
-}
-.button-sm {
-   padding: 14px 20px;
-}
 .button-arrow {
    border: none;
    padding: 15px;
 }
-.button-arrow:hover {
+.button-send {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: Roboto, sans-serif;
+   color: #fff;
+   background-color: black;
+   font-size: 15px;
+   cursor: pointer;
+   border: none;
+   padding: 12px 20px;
 }
-
-
-
+.button-send:hover {
+   background-color: #ffe600;
+}
